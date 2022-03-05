@@ -1,0 +1,17 @@
+body {
+    color: #fff;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.container-fluid {
+    padding: 10% 5%;
+    text-align: center;
+}
+
+.btn {
+    margin: 1%;
+}
+
