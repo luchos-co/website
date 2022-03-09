@@ -21,21 +21,22 @@
     <script src="https://unpkg.com/vue@3"></script>
     <script src="index.js" defer></script>
   </head>
-  
-  <body class="bg-success">
+
+  <body>
+    
     <div class="container-fluid" id="app">
-      <h1>{{ message }}</h1>
-      <h2>{{ subtext }}</h2>
-      <h3>{{ linktext }}</h3>
+      <h1 class="text-success">{{ message }}</h1>
+      <h2 class="text-success">{{ subtext }}</h2>
+      <h3 class="text-success">{{ linktext }}</h3>
 
       <a href="https://www.facebook.com/luchos.flavor">
-        <button type="button" class="facebook btn btn-outline-light">
+        <button type="button" class="facebook btn btn-warning">
           <i class="fa-brands fa-facebook"></i> Facebook
         </button>
       </a>
       
       <a href="https://instagram.com/luchos.flavor">
-      <button type="button" class="btn btn-outline-light">
+      <button type="button" class="btn btn-warning">
         <i class="fa-brands fa-instagram"></i> Instagram
       </button>
       </a>
